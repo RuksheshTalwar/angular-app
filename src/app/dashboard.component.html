@@ -1,0 +1,10 @@
+<p> Your Dashboard! </p>
+<div>
+    <button type="button" (click) = "onClick()"> Click Me </button>
+</div>
+<!-- <p> {{loadState}} </p> -->
+<p [textContent]="loadState"></p>
+<div>
+    <!-- <input type="text" (input)="loadState = $event.target.value"> -->
+    <input [(ngModel)] = "loadState">
+</div>
