@@ -5,12 +5,16 @@ import { AppComponent } from './app.component';
 import { UserComponent } from './user.component';
 import { FormsModule } from '@angular/forms';
 import { DashboardComponent } from './dashboard.component';
+import { ServerComponent } from './server/server.component';
+import { ServersComponent } from './servers/servers.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
-    DashboardComponent
+    DashboardComponent,
+    ServerComponent,
+    ServersComponent
   ],
   imports: [
     BrowserModule,
